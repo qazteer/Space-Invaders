@@ -1,0 +1,20 @@
+body{
+	background: #000;
+}
+
+canvas{
+	background: url('space.jpg') no-repeat;
+	display: block;
+	margin: 30px auto 0;
+}
+
+#start{
+	padding: 10px 100px;
+	background: #999;
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px rgba(0,0,0,1);
+	position: absolute;
+	top: 200px;
+	left: 550px;
+	font: bold 20px Arial, sans-serif;
+}
