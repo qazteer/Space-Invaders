@@ -9,7 +9,7 @@
 			y:canvas.height
 		};
 
-		/*моединяем массив invaders с обьектом Player с помощью concat*/
+		/*cоединяем массив invaders с обьектом Player с помощью concat*/
 		this.bodies = createInvaders(this).concat([new Player(this, gameSize)]);
 
 		var self = this;
@@ -68,7 +68,7 @@
 
 			this.bodies = this.bodies.filter(notCollidingWidthAnything);
 
-			/*очищаем массив от "тел" вышедших за рамки канваса (качается пуль)*/
+			/*очищаем массив от "тел" вышедших за рамки канваса (каcается пуль)*/
 			for(var i=0;i<this.bodies.length;i++){
 				if(this.bodies[i].position.y < 0){
 					this.bodies.splice(i,1);
